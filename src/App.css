@@ -1,0 +1,68 @@
+.my_navbar {
+    min-height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background: blue;
+    box-shadow: 0px 5px 0px 0px #000088;
+    color: white;
+}
+.main_container {
+    position: relative;
+    width: 100%;
+    padding: 150px;
+    min-height: 100vh;
+    /* background-image: url(./assets/bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+.my-card {
+    /* background: rgba(255, 255, 255, 0.15); */
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    position: relative;
+    width: min(700px, 100%);
+}
+
+/* Footer */
+.my_footer {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    position: relative;
+    -webkit-backdrop-filter: blur(6.5px);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    border: none;
+    border-radius: 11px;
+    color: white;
+    background-color: blue;
+    transition: all 200ms;
+    padding: 10px;
+}
+.btn {
+    box-shadow: 0px 5px 0px 0px #000088;
+    width: 200px;
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 0px 0px #000088;
+    transform: translateY(3px);
+}
+.btn:active {
+    box-shadow: 0px 0px 0px 0px #000088;
+    transform: translateY(6px);
+}
